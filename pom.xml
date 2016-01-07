@@ -32,22 +32,21 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.3</version>
-        <executions>
-          <execution>
+        
+        
             <configuration>
               <verbose>true</verbose>
             </configuration>
-          </execution>
-        </executions>
+          
       </plugin>
+          </plugins>
           
           
           
           
           
           
-          
-          
+          <plugins>
             <plugin>
                 <groupId>org.mortbay.jetty</groupId>
                 <artifactId>maven-jetty-plugin</artifactId>
