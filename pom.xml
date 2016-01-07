@@ -3,8 +3,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>prueba-app</groupId>
-  <artifactId>miDni</artifactId>
-  <version>2</version>
+  <artifactId>prueba-app1</artifactId>
+  <version>1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>app</name>
@@ -14,23 +14,6 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-<dependencies>
-  <dependency>
-    <groupId>junit</groupId>
-   <artifactId>junit</artifactId>
-  <version>3.8.1</version>
-  <scope>test</scope>
-  </dependency>
-</dependencies>
-
-<profiles>
-  <profile>
-    <id>MyPerfil</id>
-    <activation>
-      <os>
-        <family>windows</family>
-      </os>
-    </activation>
     <build>
         <plugins>
             <plugin>
@@ -38,17 +21,6 @@
                 <artifactId>maven-jetty-plugin</artifactId>
                 <version>6.1.10</version>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.3</version>
-                <configuration>
-                  <verbose>true</verbose>
-                </configuration>
-            </plugin>
-            
         </plugins>
     </build>
-    </profile>
-  </profiles>
 </project>
